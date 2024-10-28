@@ -3,17 +3,23 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Purple Admin</title>
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>STOCkZ</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="../../assets/vendors/ti-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="../../assets/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet"
+      href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet"
+      href="../../assets/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet"
+      href="../../assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet"
+      href="../../assets/vendors/font-awesome/css/font-awesome.min.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <link rel="stylesheet" href="../../assets/vendors/select2/select2.min.css">
-    <link rel="stylesheet" href="../../assets/vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
+    <link rel="stylesheet"
+      href="../../assets/vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
@@ -25,13 +31,18 @@
   <body>
     <div class="container-scroller">
       <!-- partial:../../partials/_navbar.html -->
-      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
-          <a class="navbar-brand brand-logo" href="/index.html"> <span class="text-danger font-weight-bold"><b>STOCKZ</b></span></a>
-          <a class="navbar-brand brand-logo-mini" href="/index.html"><span class="text-danger font-weight-bold"><b>SZ</b></span></a>
+      <nav
+        class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div
+          class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+          <a class="navbar-brand brand-logo" href="../../index.html"> <span
+              class="text-danger font-weight-bold"><b>STOCKZ</b></span></a>
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><span
+              class="text-danger font-weight-bold"><b>SZ</b></span></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-stretch">
-          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <button class="navbar-toggler navbar-toggler align-self-center"
+            type="button" data-toggle="minimize">
             <span class="mdi mdi-menu"></span>
           </button>
           <div class="search-field d-none d-md-block">
@@ -40,13 +51,15 @@
                 <div class="input-group-prepend bg-transparent">
                   <i class="input-group-text border-0 mdi mdi-magnify"></i>
                 </div>
-                <input type="text" class="form-control bg-transparent border-0" placeholder="Search Stocks">
+                <input type="text" class="form-control bg-transparent border-0"
+                  placeholder="Search Stocks">
               </div>
             </form>
           </div>
           <ul class="navbar-nav navbar-nav-right">
             <li class="nav-item nav-profile dropdown">
-              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#"
+                data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-profile-img">
                   <img src="../../assets/images/faces/face1.jpg" alt="image">
                   <span class="availability-status online"></span>
@@ -55,161 +68,199 @@
                   <p class="mb-1 text-black">Premkumar S</p>
                 </div>
               </a>
-              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+              <div class="dropdown-menu navbar-dropdown"
+                aria-labelledby="profileDropdown">
                 <a class="dropdown-item" href="#">
-                  <i class="mdi mdi-cached me-2 text-success"></i> Activity Log </a>
+                  <i class="mdi mdi-cached me-2 text-success"></i> Activity Log
+                </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">
                   <i class="mdi mdi-logout me-2 text-primary"></i> Signout </a>
               </div>
             </li>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
-                <i class="mdi mdi-bell-outline"></i>
-                <span class="count-symbol bg-danger"></span>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle"
+              id="notificationDropdown" href="#" data-bs-toggle="dropdown">
+              <i class="mdi mdi-bell-outline"></i>
+              <span class="count-symbol bg-danger"></span>
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-end navbar-dropdown preview-list"
+              aria-labelledby="notificationDropdown">
+              <h6 class="p-3 mb-0">Notifications</h6>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-success">
+                    <i class="mdi mdi-calendar"></i>
+                  </div>
+                </div>
+                <div
+                  class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                  <h6 class="preview-subject font-weight-normal mb-1">Event
+                    today</h6>
+                  <p class="text-gray ellipsis mb-0"> Divedent date announced
+                  </p>
+                </div>
               </a>
-              <div class="dropdown-menu dropdown-menu-end navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
-                <h6 class="p-3 mb-0">Notifications</h6>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-success">
-                      <i class="mdi mdi-calendar"></i>
-                    </div>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-warning">
+                    <i class="mdi mdi-cog"></i>
                   </div>
-                  <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="preview-subject font-weight-normal mb-1">Event today</h6>
-                    <p class="text-gray ellipsis mb-0"> Divedent date announced </p>
+                </div>
+                <div
+                  class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                  <h6
+                    class="preview-subject font-weight-normal mb-1">Settings</h6>
+                  <p class="text-gray ellipsis mb-0"> Update dashboard </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-info">
+                    <i class="mdi mdi-link-variant"></i>
                   </div>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-warning">
-                      <i class="mdi mdi-cog"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="preview-subject font-weight-normal mb-1">Settings</h6>
-                    <p class="text-gray ellipsis mb-0"> Update dashboard </p>
-                  </div>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-info">
-                      <i class="mdi mdi-link-variant"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                    <h6 class="preview-subject font-weight-normal mb-1">Launch Admin</h6>
-                    <p class="text-gray ellipsis mb-0"> New admin wow! </p>
-                  </div>
-                </a>
-                <div class="dropdown-divider"></div>
-                <h6 class="p-3 mb-0 text-center">See all notifications</h6>
+                </div>
+                <div
+                  class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                  <h6 class="preview-subject font-weight-normal mb-1">Launch
+                    Admin</h6>
+                  <p class="text-gray ellipsis mb-0"> New admin wow! </p>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <h6 class="p-3 mb-0 text-center">See all notifications</h6>
+            </div>
+          </li>
+          <li class="nav-item nav-logout d-none d-lg-block">
+            <a class="nav-link" href="#">
+              <i class="mdi mdi-power"></i>
+            </a>
+          </li>
+          <li class="nav-item nav-settings d-none d-lg-block">
+            <a class="nav-link" href="#">
+              <i class="mdi mdi-format-line-spacing"></i>
+            </a>
+          </li>
+        </ul>
+        <button
+          class="navbar-toggler navbar-toggler-right d-lg-none align-self-center"
+          type="button" data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item nav-profile">
+            <a href="#" class="nav-link">
+              <div class="nav-profile-image">
+                <img src="../../assets/images/faces/face1.jpg" alt="profile" />
+                <span class="login-status online"></span>
+                <!--change to offline or busy as needed-->
               </div>
-            </li>
-            <li class="nav-item nav-logout d-none d-lg-block">
-              <a class="nav-link" href="#">
-                <i class="mdi mdi-power"></i>
-              </a>
-            </li>
-            <li class="nav-item nav-settings d-none d-lg-block">
-              <a class="nav-link" href="#">
-                <i class="mdi mdi-format-line-spacing"></i>
-              </a>
-            </li>
-          </ul>
-          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
-            <span class="mdi mdi-menu"></span>
-          </button>
-        </div>
+              <div class="nav-profile-text d-flex flex-column">
+                <span class="font-weight-bold mb-2">Premkumar S</span>
+                <span class="text-secondary text-small"></span>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">
+              <span class="menu-title">Dashboard</span>
+              <i class="mdi mdi-home menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#forms"
+              aria-expanded="false" aria-controls="forms">
+              <span class="menu-title">Add stocks</span>
+              <i class="mdi mdi-format-list-bulleted menu-icon"></i>
+            </a>
+            <div class="collapse" id="forms">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="basic_elements.html">Add to your
+                    stocks</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="form.html">Add to watchlist</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </nav>
       <!-- partial -->
-      <div class="container-fluid page-body-wrapper">
-        <!-- partial:partials/_sidebar.html -->
-        <nav class="sidebar sidebar-offcanvas" id="sidebar">
-          <ul class="nav">
-            <li class="nav-item nav-profile">
-              <a href="#" class="nav-link">
-                <div class="nav-profile-image">
-                  <img src="../../assets/images/faces/face1.jpg" alt="profile" />
-                  <span class="login-status online"></span>
-                  <!--change to offline or busy as needed-->
+      <div class="main-panel justify-content-center">
+        <div class="content-wrapper">
+          <div class="page-header">
+            <h3 class="page-title">
+            </span> Add stock to watch close
+          </h3>
+          <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">
+                <span></span>Overview <i
+                  class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="row">
+          <div class="col-md-6  col-lg-12 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Add to watchlist</h4>
+                <p class="card-description"> Stock details </p>
+                <div class="form-group">
+                  <label for="exampleInputUsername1">Stock Name</label>
+                  <input type="text" class="form-control" id="addstocksinput"
+                    placeholder="Stock Name">
                 </div>
-                <div class="nav-profile-text d-flex flex-column">
-                  <span class="font-weight-bold mb-2">Premkumar S</span>
-                  <span class="text-secondary text-small"></span>
-                </div>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/index.html">
-                <span class="menu-title">Dashboard</span>
-                <i class="mdi mdi-home menu-icon"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#forms" aria-expanded="false" aria-controls="forms">
-                <span class="menu-title">Add stocks</span>
-                <i class="mdi mdi-format-list-bulleted menu-icon"></i>
-              </a>
-              <div class="collapse" id="forms">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="basic_elements.html">Add to your stocks</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="form.html">Add to watchlist</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </nav>
-        <!-- partial -->
-        <div class="main-panel justify-content-center">
-          <div class="content-wrapper">
-            <div class="page-header">
-              <h3 class="page-title">
-                </span> Add stock to watch close
-              </h3>
-              <nav aria-label="breadcrumb">
-                <ul class="breadcrumb">
-                  <li class="breadcrumb-item active" aria-current="page">
-                    <span></span>Overview <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="row">
-              <div class="col-md-6  col-lg-12 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Add to watchlist</h4>
-                    <p class="card-description"> Stock details </p>
-                    <form class="forms-sample">
-                      <div class="form-group">
-                        <label for="exampleInputUsername1">Stock Name</label>
-                        <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Stock Name">
-                      </div>
-                      <!-- <div class="form-group">
+                <!-- <div class="form-group">
                         <label for="exampleInputEmail1">Current Price</label>
                         <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Current Price">
                       </div> -->
-                      <div class="form-group">
-                        <label for="exampleInputPassword1">Target price</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Target price">
-                      </div>
-                   
-                      <button type="submit" class="btn btn-gradient-primary me-2">Add</button>
-                    </form>
-                  </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Target price</label>
+                  <input type="number" class="form-control" id="addstockprice"
+                    placeholder="Target price">
                 </div>
+                <button type="submit" class="btn btn-gradient-primary me-2"
+                  id="stockaddbtn">Add</button>
               </div>
+            </div>
+          </div>
           <!-- content-wrapper ends -->
+
+          <table class="table table-hover" id="tableclone">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Stock Name</th>
+                <th scope="col">Target Price</th>
+                <th scope="col">Edit Data</th>
+              </tr>
+            </thead>
+            <tbody id="entereddata">
+            </tbody>
+          </table>
+
+          <div class="col-md-12 d-flex justify-content-center mt-4">
+            <button type="submit" class="btn btn-gradient-primary " id="printbtn" >Print</button>
+          </div>
+
+          </div>         
+            
+          <!-- content-wrapper ends -->
+
           <!-- partial:../../partials/_footer.html -->
           <footer class="footer">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
@@ -224,12 +275,124 @@
       <!-- page-body-wrapper ends -->
     </div>
     <!-- container-scroller -->
+
+    <script>
+          let stocknameadd = document.getElementById("addstocksinput");
+          let addstockprice = document.getElementById("addstockprice");
+          let entereddata = document.getElementById("entereddata")
+      let stockaddbtn = document.getElementById("stockaddbtn");
+    stockaddbtn.addEventListener("click", ()=>{
+   // console.log(stocknameadd.value);
+    // console.log(stockpriceadd.value);
+
+    // buttoncalling.addEventListener('click', function task() {
+       
+     
+      
+      
+      let rowCreate = entereddata.insertRow(entereddata.rows.length)
+      let stocknameadddata = rowCreate.insertCell(0)
+      let stockpriceadddata = rowCreate.insertCell(1)
+      let editbtn = rowCreate.insertCell(2)
+
+
+
+      stocknameadddata.innerHTML = stocknameadd.value
+      stockpriceadddata.innerHTML = addstockprice.value
+      editbtn.innerHTML = '<button type="submit" onclick={removefunction(this)} class="btn btn-gradient-primary me-2">Remove</button>' 
+  
+    
+   
+    })
+
+    function removefunction(params) {
+         console.log(params);
+         let rowdata = params.parentNode.parentNode;
+         console.log(rowdata);
+         let removeddata = rowdata.parentNode.removeChild(rowdata);
+         console.log(removeddata); 
+         }
+
+         let geneatebtn = document.getElementById("printbtn");
+    geneatebtn.addEventListener("click", function generatingpdf(e) {
+        e.preventDefault();
+
+        // Clone the table
+        let product_table = document.getElementById("tableclone").cloneNode(true);
+
+        // Get the table head and remove the "Edit Data" column
+        let thead = product_table.getElementsByTagName("thead")[0];
+        if (thead) {
+            thead.rows[0].deleteCell(2); // Remove the Edit Data header cell
+        }
+
+        // Get the table body and remove the "Edit Data" column
+        let tbody = product_table.getElementsByTagName("tbody")[0];
+        let rows = tbody.getElementsByTagName("tr");
+
+        for (let i = 0; i < rows.length; i++) {
+            if (rows[i].cells.length > 2) {
+                rows[i].deleteCell(2); // Remove the Edit Data cell
+            }
+        }
+
+        let entire_table = product_table.outerHTML;
+        let newtab = window.open('', '_blank');
+
+        newtab.document.write('<head><style>');
+        newtab.document.write('body { font-family: Arial, sans-serif; }');
+        newtab.document.write('table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }');
+        newtab.document.write('th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }');
+        newtab.document.write('th { background-color: #f2f2f2; }');
+        newtab.document.write('#totalAmount { font-weight: bold; }');
+        newtab.document.write('#invoiceTitle { text-align: center; font-size: 24px; margin-bottom: 20px; }');
+        newtab.document.write('</style>');
+        newtab.document.write('</head><body>');
+        newtab.document.write('<h2 id="invoiceTitle">Stocks added to your Watchlist</h2>');
+        newtab.document.write(entire_table);
+        newtab.document.close();
+        newtab.print();
+    });
+
+           
+      
+
+// function savefunction(params) {
+  
+// }
+ 
+
+    // console.log(entereddata.rows.length);
+  
+    // console.log(rowCreate);
+
+    
+
+
+    // let stocknameadd1 = document.createElement("input");
+    //  stocknameadd1.value = stocknameadd.value;
+    //  stocknameadd1.setAttribute("readonly", "readonly");
+    //  stockpriceadddata.appendChild(stocknameadd1);
+
+    // let stockpriceadd1 = document.createElement("input");
+    // stockpriceadd1.value = stockpriceadd.value;
+    // stockpriceadd1.setAttribute("readonly", "readonly");
+    // stocknameadddata.appendChild(stockpriceadd1);
+
+    
+    // let editbtn = rowCreate.insertCell(2)
+
+   
+
+
+     </script>
     <!-- plugins:js -->
     <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
     <script src="../../assets/vendors/select2/select2.min.js"></script>
-    <script src="../../assets/vendors/typeahead.js/typeahead.bundle.min.js"></script>
+    <script
+      src="../../assets/vendors/typeahead.js/typeahead.bundle.min.js"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
     <script src="../../assets/js/off-canvas.js"></script>
